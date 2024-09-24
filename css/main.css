@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+main p {
+  background-color: rgb(219, 161, 0);
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+@media (max-width: 772px) {
+  header h1 {
+    background-color: purple;
+    color: white;
+    font-size: 2.5rem;
+  }
+
+  main p {
+    background-color: rgb(185, 160, 185);
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 424px) {
+  header h1 {
+    background-color: brown;
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  main p {
+    background-color: burlywood;
+    line-height: 3rem;
+  }
+}
+
+@media (max-width: 320px) {
+  header h1 {
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: #fff;
+  }
+
+  main p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    background-color: #ffffffda;
+  }
+}
+
